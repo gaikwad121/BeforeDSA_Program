@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JYOTI M GAIKWAD\\Source\\Repos\\BeforeDSA_Program\\Before_DSA_Programs\\Before_DSA_Programs.csproj": {}
+    "C:\\Users\\JYOTI M GAIKWAD\\Source\\Repo\\Before_DSA_Programs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JYOTI M GAIKWAD\\Source\\Repos\\BeforeDSA_Program\\Before_DSA_Programs\\Before_DSA_Programs.csproj": {
+    "C:\\Users\\JYOTI M GAIKWAD\\Source\\Repo\\Before_DSA_Programs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JYOTI M GAIKWAD\\Source\\Repos\\BeforeDSA_Program\\Before_DSA_Programs\\Before_DSA_Programs.csproj",
+        "projectUniqueName": "C:\\Users\\JYOTI M GAIKWAD\\Source\\Repo\\Before_DSA_Programs.csproj",
         "projectName": "Before_DSA_Programs",
-        "projectPath": "C:\\Users\\JYOTI M GAIKWAD\\Source\\Repos\\BeforeDSA_Program\\Before_DSA_Programs\\Before_DSA_Programs.csproj",
+        "projectPath": "C:\\Users\\JYOTI M GAIKWAD\\Source\\Repo\\Before_DSA_Programs.csproj",
         "packagesPath": "C:\\Users\\JYOTI M GAIKWAD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JYOTI M GAIKWAD\\Source\\Repos\\BeforeDSA_Program\\Before_DSA_Programs\\obj\\",
+        "outputPath": "C:\\Users\\JYOTI M GAIKWAD\\Source\\Repo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JYOTI M GAIKWAD\\AppData\\Roaming\\NuGet\\NuGet.Config"
