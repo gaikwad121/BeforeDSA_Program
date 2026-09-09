@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Before_DSA_Programs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a074e94dbfb1f1c92130b0c1b57c697ee62ba9d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92b1765b9ecaaa761d1cd587c7fb6a0f48055d00")]
 [assembly: System.Reflection.AssemblyProductAttribute("Before_DSA_Programs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Before_DSA_Programs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
