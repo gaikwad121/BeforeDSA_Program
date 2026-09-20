@@ -1,0 +1,624 @@
+//1. Print all numbers from 1 to 10 using a loop.
+
+using System;
+
+public class Print_all_numbers_from_1_to_10
+{
+    public static void Main(string[] args)
+    {
+     int i=1;
+        while(i<=10){
+            
+        
+        Console.WriteLine (i);
+            i++;
+    }
+}
+}
+//2. Print numbers from 10 down to 1 in reverse order.
+
+using System;
+
+public class Print_all_numbers_from_10_down_to_1
+{
+    public static void Main(string[] args)
+    {
+     int i=10;
+        while(i>=1){
+            
+
+        Console.WriteLine (i);
+                                i--;
+
+    }
+}
+}
+
+//3. Print all even numbers between 1 and 100.
+
+using System;
+
+public class Print_all_even_numbers_from_1_to_10
+{
+    public static void Main(string[] args)
+    {
+     int i=1;
+        while(i<=100){
+            
+       if(i%2==0){
+           
+       
+        Console.WriteLine (i);
+       }
+         i++;
+
+    }
+}
+}
+
+//4. Print all odd numbers between 1 and 100.
+
+using System;
+
+public class Print_all_even_numbers_from_1_to_10
+{
+    public static void Main(string[] args)
+    {
+     int i=1;
+        while(i<=100){
+            
+       if(i%2!=0){
+           
+       
+        Console.WriteLine (i);
+       }
+         i++;
+
+    }
+}
+}
+
+//5. Print the multiplication table of a given number from n × 1 to n × 10.
+
+using System;
+
+public class Print_all_even_numbers_from_1_to_10
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Enter any num value");
+        int num=int.Parse(Console.ReadLine());
+             int i=1;
+
+        while(i<=10){
+       
+        Console.WriteLine ($"{i} x {num} = {i*num}");
+       
+         i++;
+
+    }
+}
+}
+
+//6. Calculate and print the sum of the first n natural numbers.
+
+using System;
+
+public class printSumOf_n_Natural_Number
+{
+    public static void Main(string[] args)
+    {
+  Console.WriteLine("Enter any num value");
+        int num=int.Parse(Console.ReadLine());
+        int sum=0;
+        int i=1;
+        while(i<=num){
+           sum+=i;
+            i++;
+        }
+                    Console.WriteLine(sum);
+
+    }
+}
+
+//7. Calculate the sum of all even numbers from 1 up to n.
+
+using System;
+
+public class printSumOf_n_Natural_Number
+{
+    public static void Main(string[] args)
+    {
+  Console.WriteLine("Enter any num value");
+        int num=int.Parse(Console.ReadLine());
+        int sum=0;
+        int i=1;
+        while(i<=num){
+            if(i%2==0){
+           sum+=i;
+            }
+            i++;
+        }
+                    Console.WriteLine(sum);
+
+    }
+}
+
+//8. Calculate the sum of all odd numbers from 1 up to n.
+
+using System;
+
+public class BeforeDSA
+{
+    public static void Main(string[] args)
+    {
+  Console.WriteLine("Enter any num value");
+        int num=int.Parse(Console.ReadLine());
+        int sum=0;
+        int i=1;
+        while(i<=num){
+            if(i%2!=0){
+           sum+=i;
+            }
+            i++;
+        }
+                    Console.WriteLine(sum);
+
+    }
+}
+
+// 9. Calculate and print the factorial of a given number.
+
+using System;
+
+public class BeforeDSA
+{
+    public static void Main(string[] args)
+    {
+  Console.WriteLine("Enter any num value");
+        int num=int.Parse(Console.ReadLine());
+        int fact=1;
+        int sum=0;
+        int i=1;
+        while(i<=num){
+  fact=fact*i;
+            
+            i++;
+        }
+                    Console.WriteLine(fact);
+
+    }}
+
+//10. Find and print the product of all digits of a given number.
+using System;
+
+public class BeforeDSA
+{
+    public static void Main(string[] args)
+    {
+        int num=234567;
+    
+        int digit=0;
+        int count=1;
+        while(num!=0){
+            digit=num%10;
+            count*=digit;
+            num/=10;
+        }      Console.WriteLine(count);
+
+    }}
+
+//11. Count and print the total number of digits in a given number.
+
+using System;
+
+public class BeforeDSA
+{
+    public static void Main(string[] args)
+    {
+        int num=234567;
+            int count=0;
+        while(num!=0){
+            count++;
+            num/=10;
+        }      Console.WriteLine(count);
+
+    }}
+
+//12. Reverse the given number and print the reversed value.
+
+using System;
+
+public class BeforeDSA
+{
+    public static void Main(string[] args)
+    {
+        int num=234567;
+            int rev=0;
+        while(num!=0){
+            rev=rev*10+num%10;
+            num/=10;
+        }      Console.WriteLine(rev);
+
+    }}
+
+//13. Check whether the given number is a palindrome.
+using System;
+
+public class BeforeDSA
+{
+    public static void Main(string[] args)
+    {
+        int num=12421;
+        int temp=num;
+            int rev=0;
+        while(num!=0){
+            rev=rev*10+num%10;
+            num/=10;
+        }      Console.WriteLine(rev);
+if(temp==rev){
+    Console.WriteLine("It's a palindrome number");
+}else{
+        Console.WriteLine("It's not a palindrome number");
+
+}
+    }}
+
+//14. Find and print the sum of digits of the given number.
+
+using System;
+
+public class BeforeDSA
+{
+    public static void Main(string[] args)
+    {
+        int num=12421;
+          int digitsum=0;
+        int sum=0;
+        while(num!=0){
+            digitsum=num%10;
+            sum+=digitsum;
+            num/=10;
+        }
+        Console.WriteLine(sum);
+    }}
+
+//15. Check whether the given number is an Armstrong number.
+
+using System;
+
+public class BeforeDSAPractice
+{
+    public static void Main(string[] args)
+    {
+        int Arm=0;
+        int num=153;
+        int temp=num;
+        while(num!=0){
+            int digit=num%10;
+            Arm=Arm+digit*digit*digit;
+            num/=10;
+        }
+        Console.WriteLine(Arm);
+        if(temp==Arm){
+            Console.WriteLine("It's Armstrong number !");
+        }else{
+                        Console.WriteLine("It's not Armstrong number !");
+
+        }
+    }
+}
+//16. Check whether the given number is a Perfect number.
+
+using System;
+
+public class BeforeDSAPractice
+{
+    public static void Main(string[] args)
+    {
+     int i=1;
+        int num=14;
+        int sum=0;
+        while(i<num){
+         if(num%i==0){
+             sum+=i;
+         }
+            i++;
+        }
+        Console.WriteLine(sum);
+            if(sum==num){
+                Console.WriteLine("It's a perfect Number");
+            }else{
+                                Console.WriteLine("It's not a perfect Number");
+
+            }
+        }
+    
+}
+//21. Print the square of each number from 1 to n.
+
+using System;
+
+public class BeforeDSAPractice
+{
+    public static void Main(string[] args)
+    {
+ Console.WriteLine("Enter any num value");
+        int num=int.Parse(Console.ReadLine());
+        int i=1;
+        while(i<=num){
+            Console.WriteLine($"{i}^2 = {i*i}");
+            i++;
+        }
+    }
+    
+}
+// 22. Print the cube of each number from 1 to n.
+
+using System;
+
+public class BeforeDSAPractice
+{
+    public static void Main(string[] args)
+    {
+ Console.WriteLine("Enter any num value");
+        int num=int.Parse(Console.ReadLine());
+        int i=1;
+        while(i<=num){
+            Console.WriteLine($"{i}^3 = {i*i*i}");
+            i++;
+        }
+    }
+    
+}
+//23. Print all numbers between a and b that are divisible by 7.
+
+using System;
+
+public class BeforeDSAPractice
+{
+    public static void Main(string[] args)
+    {
+ Console.WriteLine("Enter any num value");
+        int a=int.Parse(Console.ReadLine());
+        Console.WriteLine("Enter any num value");
+        int b=int.Parse(Console.ReadLine());
+        int i=a;
+        while(i<=b){
+            if(i%7==0){
+                Console.WriteLine(i);
+            }
+            i++;
+        }
+    }
+    
+}
+//19. Print the Fibonacci series up to n terms.
+
+using System;
+
+public class BeforeDSAPractice
+{
+    public static void Main(string[] args)
+    {
+ int a=0; int b=1;
+        int num=10;
+        int i=1;
+        while(i<=num){
+            Console.WriteLine(a);
+            int temp=a+b;
+              a=b;
+            b=temp;
+           // Console.WriteLine(temp);
+            i++;
+        }
+    }
+    
+}
+//20. Find and print the sum of the Fibonacci series up to n terms.
+
+using System;
+
+public class BeforeDSAPractice
+{
+    public static void Main(string[] args)
+    {
+  int a=0;
+        int b=1;
+        int i=1;
+        int sum=0;
+ Console.WriteLine("Enter any n value");
+        int n=int.Parse(Console.ReadLine());
+        while(i<=n){
+                       sum+=a;
+
+            int temp=a+b;
+            a=b;
+            b=temp;
+            i++;
+        }
+        Console.WriteLine(sum);
+       }
+    
+}
+using System;
+//18. Check whether the given number is a prime number.
+public class BeforeDSAPractice
+{
+    public static void Main(string[] args)
+    {
+   bool isprime=true;
+        int num=17;
+        int i=2;
+        while(i<=num/2){
+            if(num%i==0){
+                isprime=false;
+            }
+            i++;
+        }
+        if(isprime){
+            Console.WriteLine("It's  prime number");
+        }else{
+                        Console.WriteLine("It's not prime number");
+
+        }
+}}
+//24. Print all factors of the given number.
+
+using System;
+public class BeforeDSAPractice
+{
+    public static void Main(string[] args)
+    {
+         Console.WriteLine("Enter any n value");
+        int n=int.Parse(Console.ReadLine());
+                    int i=1;
+
+        while(i<=n){
+            if(n%i==0){
+                Console.WriteLine(i);
+            }
+            i++;
+        }
+    }
+}
+//28. Find the smallest digit in the given number.
+
+using System;
+public class BeforeDSAPractice
+{
+    public static void Main(string[] args)
+    {
+         Console.WriteLine("Enter any n value");
+        int n=0;
+        int num=int.Parse(Console.ReadLine());
+                 int small=num%10;;
+
+                   while(num!=0){
+                       int digit=num%10;
+                       if(digit<small){
+                            small=digit;
+                       }
+                       num/=10;
+                   }
+                       Console.WriteLine(small);
+                   }
+        }
+    
+//29. Find the largest digit in the given number.
+using System;
+public class BeforeDSAPractice
+{
+    public static void Main(string[] args)
+    {
+         Console.WriteLine("Enter any n value");
+        int n=0;
+        int num=int.Parse(Console.ReadLine());
+                 int greater=num%10;;
+
+                   while(num!=0){
+                       int digit=num%10;
+                       if(digit>greater){
+                            greater=digit;
+                       }
+                       num/=10;
+                   }
+                       Console.WriteLine(greater);
+                   }
+        }
+    26. Find the HCF (Highest Common Factor) of two given numbers.
+
+using System;
+
+public class BeforeDSA
+{
+    public static void Main(string[] args)
+    {
+  int a=12;
+        int b=34;
+    
+        while(a!=b){
+         if(a>b){
+             a=a-b;
+         }else{
+             b=b-a;
+         }
+        }
+        
+                Console.WriteLine("HCF = " + a);
+        }
+
+    }
+//27. Find the LCM (Least Common Multiple) of two given numbers.
+
+using System;
+
+public class BeforeDSA
+{
+    public static void Main(string[] args)
+    {
+        int a=89;
+        int b=69;
+        int originalA=a;
+        int originalB=b;
+    int lcm=1;
+
+    while(a!=b){
+        if(a>b){
+        a=a-b;
+        }else{
+            b=b-a;
+        }
+    }
+        int hcf=a;
+        lcm=(originalA*originalB)/hcf;
+                Console.WriteLine($"LCM : {lcm}");
+
+        }
+
+    }
+//28. Find the smallest digit in the given number.
+
+using System;
+
+public class BeforeDSA
+{
+    public static void Main(string[] args)
+    {
+ int num=123456;
+  int d=num%10;
+               
+        while(num!=0){
+            int n=num%10;
+        if(d>n){
+            d=n;
+        }
+            num/=10;
+        
+        }
+        Console.WriteLine($"SmallestNumber : {d}");
+    }
+}
+//29. Find the largest digit in the given number.
+
+using System;
+
+public class BeforeDSA
+{
+    public static void Main(string[] args)
+    {
+ int num=123456;
+  int d=num%10;
+               
+        while(num!=0){
+            int n=num%10;
+        if(d<n){
+            d=n;
+        }
+            num/=10;
+        
+        }
+        Console.WriteLine($"largestdigit : {d}");
+    }
+}
+
